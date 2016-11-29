@@ -1,5 +1,5 @@
 
-package sorry.Data;
+package Data;
 
 public abstract class Carta{
     

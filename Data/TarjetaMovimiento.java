@@ -1,5 +1,5 @@
 
-package sorry.Data;
+package Data;
 
 public class TarjetaMovimiento extends Carta{
     

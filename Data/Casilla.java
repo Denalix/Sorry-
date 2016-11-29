@@ -1,12 +1,16 @@
 
-package sorry.Data;
+package Data;
 
-public class Casilla extends Tablero{
+import java.awt.Point;
+
+public class Casilla{
     
     private int pos;//posicion de la casilla
+    private Point point;
 
-    public Casilla(int pos){
+    public Casilla(int pos, Point point){
         this.pos = pos;
+        this.point = point;
     }
 
     public int getPos() {
@@ -16,6 +20,14 @@ public class Casilla extends Tablero{
     public void setPos(int pos) {
         this.pos = pos;
     } 
+
+    public Point getPoint() {
+        return point;
+    }
+
+    public void setPoint(Point point) {
+        this.point = point;
+    }
     
     
 }
